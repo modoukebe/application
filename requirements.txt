@@ -1,0 +1,10 @@
+pip install geemap
+import os
+import ee
+import geemap
+import ipywidgets as widgets
+from bqplot import pyplot as plt
+from ipyleaflet import WidgetControl
+import subprocess
+gunicorn==19.7.1
+psycopg2==2.5.3
